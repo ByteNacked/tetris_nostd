@@ -12,8 +12,8 @@ pub use control::Control;
 mod rand;
 use rand::XorShift32 as Rand;
 
-pub const BOARD_W: usize = 6;//20;
-pub const BOARD_H: usize = 30;
+pub const BOARD_W: usize = 12;//20;
+pub const BOARD_H: usize = 16;
 const TICKS_TO_STEP: usize = 30;
 const BOTTOM_LINE: usize = BOARD_H - 1;
 

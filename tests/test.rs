@@ -1,7 +1,6 @@
 
 #![cfg(test)]
 
-use tetrislib::*;
 
 use sdl2::event::Event;
 use sdl2::keyboard::Keycode;
@@ -13,8 +12,9 @@ use sdl2::video::{Window, WindowContext};
 
 use std::time::{SystemTime, UNIX_EPOCH};
 
-use tetrislib as tetris;
+use tetris_nostd as tetris;
 use tetris::{BOARD_H, BOARD_W};
+use tetris_nostd::*;
 
 const SQUARE_SIZE: usize = 30;
 
